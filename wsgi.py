@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from longest_word.game import Game
-from wsgi import app
 
 
 app = Flask(__name__)
